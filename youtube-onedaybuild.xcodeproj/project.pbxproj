@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		34570CAA27B40A880050001F /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34570CA927B40A880050001F /* VideoTableViewCell.swift */; };
 		34570CB227B4145F0050001F /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34570CB127B4145F0050001F /* CacheManager.swift */; };
+		34570CB427B423070050001F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34570CB327B423070050001F /* DetailViewController.swift */; };
 		348B61C327B0ACE0007392A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B61C227B0ACE0007392A9 /* AppDelegate.swift */; };
 		348B61C527B0ACE0007392A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B61C427B0ACE0007392A9 /* SceneDelegate.swift */; };
 		348B61C727B0ACE0007392A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B61C627B0ACE0007392A9 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		34570CA927B40A880050001F /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		34570CB127B4145F0050001F /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		34570CB327B423070050001F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		348B61BF27B0ACE0007392A9 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348B61C227B0ACE0007392A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		348B61C427B0ACE0007392A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				348B61C627B0ACE0007392A9 /* ViewController.swift */,
+				34570CB327B423070050001F /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				348B61C327B0ACE0007392A9 /* AppDelegate.swift in Sources */,
 				348B61C527B0ACE0007392A9 /* SceneDelegate.swift in Sources */,
 				34570CAA27B40A880050001F /* VideoTableViewCell.swift in Sources */,
+				34570CB427B423070050001F /* DetailViewController.swift in Sources */,
 				348B61D727B0BA16007392A9 /* Constants.swift in Sources */,
 				34F9D0DA27B2B4D400B3BEC1 /* Response.swift in Sources */,
 			);

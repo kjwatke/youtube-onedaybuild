@@ -24,6 +24,23 @@ class ViewController: UIViewController {
 		
 		model.getVideos()
 	}
+	
+	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+	
+		// Make sure there is an indexPath to the selected row
+		guard tableView.indexPathForSelectedRow != nil  else { return }
+		
+		// Get a reference to the detail ViewController
+		let destinationVC = segue.destination as! DetailViewController
+		
+		// Get the video for the selected row
+		let indexPath = tableView.indexPathForSelectedRow!.row
+		let selectedVideo = videos[indexPath]
+		
+		// Pass the video to the detail view controller
+		destinationVC.video = selectedVideo
+	}
 }
 
 
@@ -35,7 +52,7 @@ extension ViewController: UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: Constants.reuseId, for: indexPath) as! VideoTableViewCell
+		let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath) as! VideoTableViewCell
 		
 		let video = videos[indexPath.row]
 		
