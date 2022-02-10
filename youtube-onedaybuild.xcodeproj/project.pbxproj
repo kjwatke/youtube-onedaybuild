@@ -21,6 +21,7 @@
 		348B61D727B0BA16007392A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B61D627B0BA16007392A9 /* Constants.swift */; };
 		348B61D927B153E8007392A9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B61D827B153E8007392A9 /* Model.swift */; };
 		348B61DB27B1563C007392A9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B61DA27B1563C007392A9 /* Video.swift */; };
+		34CFFC6827B59F110019142B /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFFC6727B59F110019142B /* Keys.swift */; };
 		34F9D0DA27B2B4D400B3BEC1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9D0D927B2B4D300B3BEC1 /* Response.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		348B61D627B0BA16007392A9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		348B61D827B153E8007392A9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		348B61DA27B1563C007392A9 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		34CFFC6727B59F110019142B /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		34F9D0D927B2B4D300B3BEC1 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 			children = (
 				348B61D627B0BA16007392A9 /* Constants.swift */,
 				34570CB127B4145F0050001F /* CacheManager.swift */,
+				34CFFC6727B59F110019142B /* Keys.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				34570CB227B4145F0050001F /* CacheManager.swift in Sources */,
 				348B61DB27B1563C007392A9 /* Video.swift in Sources */,
 				348B61C727B0ACE0007392A9 /* ViewController.swift in Sources */,
+				34CFFC6827B59F110019142B /* Keys.swift in Sources */,
 				348B61C327B0ACE0007392A9 /* AppDelegate.swift in Sources */,
 				348B61C527B0ACE0007392A9 /* SceneDelegate.swift in Sources */,
 				34570CAA27B40A880050001F /* VideoTableViewCell.swift in Sources */,
