@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 		model.delegate = self
 		
 		model.getVideos()
+		
 	}
 	
 	
