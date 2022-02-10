@@ -53,7 +53,6 @@ class Model {
 					self.delegate?.videosFetched(response.items!)
 				}
 				
-				dump(response)
 			}
 			catch {
 				print("Error, error thrown on JSON decoding attempt")

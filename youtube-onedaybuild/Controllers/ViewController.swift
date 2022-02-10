@@ -6,8 +6,14 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class ViewController: UIViewController {
+	
+	let signInConfig = GIDConfiguration.init(
+		clientID: "929838038762-9vs96hgfqo97epfutkcumdkl0q6vnkbc.apps.googleusercontent.com",
+		serverClientID: "929838038762-ml84u0ce396l7qh64gcl1msfqlgps5ds.apps.googleusercontent.com"
+	)
 	
 	var model = Model()
 	var videos = [Video]()
@@ -41,6 +47,16 @@ class ViewController: UIViewController {
 		
 		// Pass the video to the detail view controller
 		destinationVC.video = selectedVideo
+	}
+	
+	// MARK: - @IBAction methods
+	@IBAction func signIn(_ sender: Any) {
+		GIDSignIn.sharedInstance.signIn(with: signInConfig, presenting: self) { user, error in
+			
+			guard error == nil else  { return }
+			
+			print("Successfully signed in...")
+		}
 	}
 }
 
